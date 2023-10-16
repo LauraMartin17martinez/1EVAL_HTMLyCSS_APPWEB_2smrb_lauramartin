@@ -11,3 +11,13 @@ h1#único {
     color: rgb(236, 151, 120);
     background-color: rgb(58, 57, 57);
 }
+div /*etiqueta contenedora*/ {
+    border: rgb(255, 95, 31) 3px solid;
+    border-style: dashed;
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+}
+div p{
+    font-weight: bolder;
+}
