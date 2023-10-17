@@ -15,6 +15,39 @@
         #saludotriple {
             font-size: 3em;
         }
+        p.borde-em {
+            border: red 1em solid;
+            border-style: groove;
+            width: 400px;
+            box-shadow: 8px 10px 8px green;
+        }
+        p.borde-ex {
+            border: green 1ex solid;
+            border-style: dashed;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 600px;
+            height: 60px;
+            text-align: center;
+            text-decoration: underline;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+        p.borde-ch {
+            border: blue 1ch solid;
+            border-style: double;
+            width: 300px;
+            background-color: rgb(188, 255, 233);
+        }
+        h2 {
+            margin-top: 70px;
+            margin-bottom: 40px;
+            text-align: center;
+            opacity: 0.5;
+        }
+       
     </style>
 </head>
 <body>
@@ -29,5 +62,13 @@
     <div id="saludotriple">
         Buenos días triple
     </div>
+
+    <h2><mark>Unidades relativas respecto al tipo de letra em, ex y ch<mark></mark></h2>
+    
+  <p class="borde-em">Este párrafo tiene un borde de 1em de grosor (la altura total del tipo de letra).</p>
+
+  <p class="borde-ex">Este párrafo tiene un borde de 1ex de grosor (la altura de la letra "x").</p>
+
+  <p class="borde-ch">Este párrafo tiene un borde de 1ch de grosor (la altura de la cifra "0").</p>
 </body>
 </html>
