@@ -4,7 +4,7 @@ h1 {
 }
 
 h1.especial {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 /*Solo se puede tener un id, es decir, no se puede duplicar.*/
 h1#único {
@@ -12,11 +12,14 @@ h1#único {
     background-color: rgb(58, 57, 57);
 }
 div /*etiqueta contenedora*/ {
-    border: rgb(255, 95, 31) 3px solid;
-    border-style: dashed;
+    border: rgb(138, 123, 117) 18px solid;
+    text-align: center;
+    border-style: groove ;
     margin: 10px;
     padding: 10px;
     width: 700px;
+    background-color: blanchedalmond;
+    
 }
 div p{
     font-weight: bolder;
