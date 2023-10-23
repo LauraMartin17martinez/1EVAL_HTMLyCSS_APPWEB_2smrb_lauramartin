@@ -1,10 +1,14 @@
 h1 {
     color: rgb(255, 255, 255);
     background-color: rgb(121, 121, 165);
+    width: 400px;
+    margin-left: 28%;
 }
 
 h1.especial {
     color: rgb(0, 0, 0);
+    border-style: dotted;
+    border-width: 2px;
 }
 /*Solo se puede tener un id, es decir, no se puede duplicar.*/
 h1#único {
@@ -15,12 +19,24 @@ div /*etiqueta contenedora*/ {
     border: rgb(138, 123, 117) 18px solid;
     text-align: center;
     border-style: groove ;
-    margin: 10px;
+    margin: 40px;
+    margin-left: 25%;
     padding: 10px;
-    width: 700px;
+    width: 900px;
     background-color: blanchedalmond;
     
 }
 div p{
     font-weight: bolder;
+}
+
+body{
+
+}
+html{
+    background-attachment: fixed;
+    background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg);
+    background-position: right top;
+    background-repeat: no-repeat;
+
 }
