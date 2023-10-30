@@ -55,6 +55,7 @@ p{
     text-align: center;
     font-family: "Nosifer-Regular";
     font-size: xx-large;
+
 }
 p.p1 {
     color: brown;
@@ -68,5 +69,8 @@ p.p2{
     text-decoration: line-through;
     font-size: medium;
 }
-
+p:hover{
+    background-color: aqua;
+    color: brown;
+}
 
