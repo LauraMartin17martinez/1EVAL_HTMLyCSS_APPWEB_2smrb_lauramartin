@@ -26,6 +26,17 @@ h2 {
     background-attachment: fixed;
     background-size: cover;
     background-image: url(https://c.pxhere.com/photos/a7/7c/background_treasure_map_map_discover_adventure_old_old_fashioned-491504.jpg!d)
+    
+}
+h2{
+    font-size: xx-large;
+    text-shadow: 3px 5px 3px black;
+}
+h4{
+    font-family: "Butcherman-Regular";
+    text-shadow: 4px 8px 4px black;
+    text-align: center;
+    font-size: xx-large;
 }
 
  .formula {
@@ -35,16 +46,27 @@ h2 {
 }
 pre {
     text-align: center;
+    font-size: x-large;
+    text-transform: uppercase;
+
     
 }
 p{
-    text-align: right;
+    text-align: center;
     font-family: "Nosifer-Regular";
     font-size: xx-large;
 }
-h4{
-    font-family: "Butcherman-Regular";
-    text-shadow: 4px 8px 4px black;
-    text-align: center;
-    font-size: xx-large;
+p.p1 {
+    color: brown;
+    text-decoration: overline;
+    font-size: small;
+
+
 }
+p.p2{
+    color: rgb(226, 226, 226);
+    text-decoration: line-through;
+    font-size: medium;
+}
+
+
