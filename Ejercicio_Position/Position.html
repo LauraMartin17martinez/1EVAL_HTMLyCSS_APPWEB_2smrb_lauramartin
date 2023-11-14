@@ -20,23 +20,35 @@
         border-radius: 40px;
         margin: 90px auto;
         position: relative;
-        height: 800px;
+        height: 800px; 
         width: 80%;
       }
-      .nav-item {
-        background-color: rgb(70, 70, 70);
+      .container nav div {
+        display: inline-block;
+        width: 22%;
+        padding: 15px;
         color: white;
-        
+        font-size: large;
+      }
+      .container nav {
+        position: -webkit-sticky;
+        position: sticky;
+        background-color: rgb(60, 60, 60);
+        top: 0%;
+        z-index: 100;
+
+      }
+      figure img {
+        width: 100%;
       }
       figure {
         background-color: white;
-        width: fit-content;
-        padding: 1%;
+        width: 20%;
+        padding: 8px;
         text-align: center;
         border: 4px black solid;
-        border-radius: 5%;
+        border-radius: 3%;
       }
-      
       .fixed-sidebar {
         position: fixed;
         border: 3px solid black;
@@ -54,9 +66,39 @@
         margin: 6px;
         width: 70px;
         height: 70px;
+        box-shadow: 4px 7px 4px black;
       }
       .fixed-sidebar ul {
+        padding-left: 5px;
         list-style: none;
+      }
+      #li1 {
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        transform: rotate(-30deg);
+        -webkit-transform: rotate(-30deg);
+      }
+      #li2 {
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+      }
+      #li3 {
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        transform: rotate(-20deg);
+        -webkit-transform: rotate(-20deg);
+      }
+      #li4 {
+        position: absolute;
+        top: 35%;
+        left: 55%;
+        transform: rotate(20deg);
+        -webkit-transform: rotate(20deg);
       }
     </style>
   </head>
