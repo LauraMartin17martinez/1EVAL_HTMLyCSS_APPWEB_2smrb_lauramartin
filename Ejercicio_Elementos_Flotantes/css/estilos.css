@@ -1,5 +1,9 @@
-* {
-    position: static;
+*{
+    box-sizing: border-box;    
+}
+.container {
+    width: 80%;
+    margin:20px auto;
 }
 header {
     text-align: center;
@@ -19,13 +23,15 @@ nav div {
     padding-right: 12%;
 }
 div .sidebar {
-    position: fixed;
+    position: relative;
     background-color: black;
     font-size: large;
     text-align: left;
-    height: 50%;
+    height: 610px;
     width: 200px;
     margin-left: 20px;
+    margin-right: 20px;
+    float: left;
 }
 div > div .menu-item {
     color: aliceblue;
@@ -63,11 +69,10 @@ p img {
 }
 
 footer {
-    position: -ms-page;
+    clear: both;
     background-color: rgb(208, 208, 208);
     font-size: large;
     padding: 20px;
     text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 20px;
 }
